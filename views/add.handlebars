@@ -1,0 +1,37 @@
+<script src="/index.js" charset="utf-8" defer></script>
+
+<header>
+
+    <div class="header-image-container">
+        <img src="../logo.jpg" alt="Website logo">
+    </div>
+    <button type="button" id="home-button"><i class="fas fa-home"></i></button>
+    <button type="button" id="list-button">My List</button>
+    <button type="button" id="custom-button">Custom</button>
+    <button type="button" id="help-button"><u>Help</u></button>
+
+    <h1 class="site-title"><a href="/">MyMusicList</a></h1>
+
+</header>
+
+<main class="content">
+
+    <div id="page-title">
+        <h1>Add Music</h1>
+
+        <p>Here you can add music to your list.</p>
+
+        <p id="yellow">Click the red "+" icon next to an album to add it to your list.</p>
+       
+       <p id="advanced-text">Are you an advanced user? You may add your own music with the custom yellow button.</p>
+    </div>
+
+    <section id="albums">
+
+        {{#each album}}
+        {{> addCard}}
+        {{/each}}
+
+    </section>
+
+</main>

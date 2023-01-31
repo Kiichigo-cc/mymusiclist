@@ -1,0 +1,41 @@
+<script src="/index.js" charset="utf-8" defer></script>
+
+<header>
+
+  <div class="header-image-container">
+    <img src="../logo.jpg" alt="Website logo">
+  </div>
+
+  <button type="button" id="home-button"><i class="fas fa-home"></i></button>
+  <button type="button" id="list-button">My List</button>
+  <button type="button" id="help-button"><u>Help</u></button>
+
+  <h1 class="site-title"><a href="#">MyMusicList</a></h1>
+  <label for="input-username">Username:</label>
+  <input type="text" id="input-username" name="username" placeholder="Enter Username"><br><br>
+  <label for="input-password">Password:</label>
+  <input type="text" id="input-password" name="password" placeholder="Enter Password"><br><br>
+  <button id="go-to-list-button">Log In</button>
+</header>
+
+<main class="content">
+
+  <div id="page-title">
+    <h1>All Music</h1>
+
+    <p>Here you can see all the entries of music in the database.
+    </p>
+    <p>
+      New here? Log in at the top of the page to view your list.
+    </p>
+  </div>
+
+  <section id="albums">
+
+    {{#each album}}
+    {{> albumCard}}
+    {{/each}}
+
+  </section>
+
+</main>

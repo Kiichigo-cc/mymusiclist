@@ -1,0 +1,62 @@
+[
+    {
+        "albumName": "OK Computer",
+        "artistName": "Radiohead",
+        "albumRating": "none",
+        "photoURL": "../covers/okc.webp"
+    },
+    {
+        "albumName": "To Pimp A Butterfly",
+        "artistName": "Kendrick Lamar",
+        "albumRating": "none",
+        "photoURL": "../covers/tpab.webp"
+    },
+    {
+        "albumName": "Wish You Were Here",
+        "artistName": "Pink Floyd",
+        "albumRating": "none",
+        "photoURL": "../covers/wywh.webp"
+    },
+    {
+        "albumName": "In the Court of the Crimson King",
+        "artistName": "King Crimson",
+        "albumRating": "none",
+        "photoURL": "../covers/kingcrimson.webp"
+    },
+    {
+        "albumName": "Kid A",
+        "artistName": "Radiohead",
+        "albumRating": "none",
+        "photoURL": "../covers/kida.webp"
+    },
+    {
+        "albumName": "Madvillainy",
+        "artistName": "Madvillain",
+        "albumRating": "none",
+        "photoURL": "../covers/madvillain.webp"
+    },
+    {
+        "albumName": "Loveless",
+        "artistName": "My Bloody Valentine",
+        "albumRating": "none",
+        "photoURL": "../covers/mbv.webp"
+    },
+    {
+        "albumName": "In Rainbows",
+        "artistName": "Radiohead",
+        "albumRating": "none",
+        "photoURL": "../covers/inrainbows.webp"
+    },
+    {
+        "albumName": "The Dark Side of the Moon",
+        "artistName": "Pink Floyd",
+        "albumRating": "none",
+        "photoURL": "../covers/dsotm.webp"
+    },
+    {
+        "albumName": "Abbey Road",
+        "artistName": "The Beatles",
+        "albumRating": "none",
+        "photoURL": "../covers/abbeyroad.webp"
+    }
+]

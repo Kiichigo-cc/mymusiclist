@@ -1,0 +1,34 @@
+<script src="/index.js" charset="utf-8" defer></script>
+
+<header>
+
+    <div class="header-image-container">
+        <img src="../logo.jpg" alt="Website logo">
+    </div>
+    <button type="button" id="home-button"><i class="fas fa-home"></i></button>
+    <button type="button" id="help-button"><u>Help</u></button>
+
+    <h1 class="site-title"><a href="/">MyMusicList</a></h1>
+</header>
+
+<main class="content">
+
+    <div id="page-title">
+        <h1>Your List</h1>
+
+        <p>This is all the music you have added to your list.</p>
+    </div>
+
+    <section id="albums">
+
+        <h1 class="big-text hidden" id="login-text">Please Log In To View Your List.</h1>
+
+        {{#each album}}
+        {{> albumCard}}
+        {{/each}}
+
+    </section>
+
+    <button type="button" id="add-button"><i class="fas fa-plus"></i></button>
+
+</main>

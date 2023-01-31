@@ -1,0 +1,216 @@
+body {
+    font-family: 'Arial';
+    margin: 0;
+    background-color: #0b1528;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  header {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  header a {
+    color: #fff;
+  }
+
+  label {
+    color: white;
+  }
+  
+  .album-title {
+    font-size: 20px;
+  }
+
+  .album-artist {
+    color: white;
+  }
+
+  .site-title {
+    font-family: 'Arial';
+    font-size: 80px;
+    font-weight: 100;
+    margin: 0 0 0 20px;
+    padding-top: 30px;
+  }
+
+  .big-text {
+    font-family: 'Arial';
+    font-size: 40px;
+    font-weight: 100;
+    margin: 0 0 0 20px;
+    padding-top: 30px;
+    color:white;
+  }
+  
+  .site-title a:hover {
+    text-decoration: none;
+  }
+  
+  .content {
+    display: flex;
+  }
+  
+  .action-button {
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    background-color: #000;
+    border: 1px solid #ababab;
+    border-radius: 5px;
+    font-weight: lighter;
+    cursor: pointer;
+  }
+  
+  .action-button:hover {
+    background-color: #f9d2b2;
+    border-color: #333;
+    color: #333;
+  }
+
+  .album {
+    display: inline-block;
+    vertical-align: top;
+    height: 240px;
+    width: 800px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid white;
+  }
+
+  #albums {
+    margin: auto;
+    width: 50%;
+  }
+  
+  .album-contents {
+    display: flex;
+
+    height: 100%;
+    width: 100%;
+  }
+  
+  .album-image-container img {
+    max-height: 240px;
+    max-width: 300px;
+  }
+  
+  .album-info-container {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  
+  .album-rating {
+    display: inline-block;
+    color: lightblue;
+  }
+
+  .album-artist {
+    display: inline-block;
+    color: lightblue;
+  }
+  
+  #page-title {
+    width: 200px;
+    color: white;
+    font-size: large;
+  }
+
+  #add-button {
+    position: fixed;
+    right: 0px;
+    top: 100px;
+    height: 100px;
+    width: 100px;
+    border: none;
+    font-size: 36px;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  #home-button {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    height: 100px;
+    width: 100px;
+    border: none;
+    font-size: 36px;
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  #custom-button {
+    position: fixed;
+    right: 0px;
+    top: 200px;
+    height: 100px;
+    width: 100px;
+    border: none;
+    font-size: 20px;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  #list-button {
+    position: fixed;
+    right: 0px;
+    top: 100px;
+    height: 100px;
+    width: 100px;
+    border: none;
+    font-size: 36px;
+    background-color: green;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  #yellow {
+    color: yellow;
+  }
+
+  #advanced-text {
+    font-size: 16px;
+  }
+
+  #help-button {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 100px;
+    width: 100px;
+    border: none;
+    font-size: 36px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .add-to-list-button {
+    height: 100px;
+    width: 100px;
+    border: none;
+    font-size: 36px;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
